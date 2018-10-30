@@ -1,0 +1,28 @@
+{
+  "name": "wxg-tools",
+  "version": "1.0.0",
+  "description": "some tools for mine use",
+  "main": "index.js",
+  "repository": "https://github.com/wangxiaogangbywin/wxg-tools",
+  "author": "wangxiaogang",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack --watch --progress"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "file-saver": "^2.0.0-rc.4",
+    "react": "^16.6.0",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.5"
+  }
+}
