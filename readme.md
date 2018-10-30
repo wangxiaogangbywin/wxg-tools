@@ -19,7 +19,7 @@ npm install wxg-tools
 ### Usage
 
 ```
-import Tools from 'wxg-tools';
+import Tools from 'wxg-tools/dist';
 ```
 
 ---
