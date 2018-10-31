@@ -8,7 +8,7 @@
 
 ---
 
-### Installation
+## Installation
 
 ```
 npm install wxg-tools
@@ -16,7 +16,7 @@ npm install wxg-tools
 
 ---
 
-### Usage
+## Usage
 
 ```
 import Tools from 'wxg-tools/dist';
@@ -24,9 +24,9 @@ import Tools from 'wxg-tools/dist';
 
 ---
 
-### Methods
+## Methods
 
-#### downloadImage(url[,name])
+### downloadImage(url[,name])
 
 > - url:
 >   > - Type:String
@@ -42,7 +42,7 @@ Tools.downloadImage('http://...','下载图片')
 downloadImage('http://...','下载图片')
 ```
 
-#### urlToBase64(url[,callback])
+### urlToBase64(url[,callback])
 
 > - url:
 >   > - Type:String
@@ -64,7 +64,7 @@ Tools.urlToBase64('http://...',(base64)=>{
 
 ---
 
-### License
+## License
 
 [mit]: https://opensource.org/licenses/MIT
 [wang xiaogang]: https://github.com/wangxiaogangbywin
@@ -73,7 +73,7 @@ Tools.urlToBase64('http://...',(base64)=>{
 
 ---
 
-### Keywords
+## Keywords
 
 [filesaver.js]: https://github.com/eligrey/FileSaver.js
 
